@@ -37,3 +37,14 @@ console.log(sentence.startsWith("c"));
 
 //endsWith()
 console.log(sentence.endsWith("i"));
+
+
+
+
+
+//convert the given string CHANDANA IS A GOOD GIRL to lower case
+
+var sentence="CHANDANA IS A GOOD GIRL";
+console.log(sentence.toLowerCase());
+
+
