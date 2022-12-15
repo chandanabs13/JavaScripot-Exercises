@@ -28,3 +28,12 @@ console.log(sentence.includes("is brilliant"));
 var word="brilliant";
 console.log(sentence);
 console.log(`the word ${word} is ${sentence.includes(word) ? "present" : "not present"} in a sentence`);
+
+//startsWith()    and     endsWith()
+
+
+//startswith()
+console.log(sentence.startsWith("c"));
+
+//endsWith()
+console.log(sentence.endsWith("i"));
