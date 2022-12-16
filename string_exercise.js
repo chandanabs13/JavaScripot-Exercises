@@ -42,9 +42,27 @@ console.log(sentence.endsWith("i"));
 
 
 
+
+
+
+
+
 //convert the given string CHANDANA IS A GOOD GIRL to lower case
 
 var sentence="CHANDANA IS A GOOD GIRL";
 console.log(sentence.toLowerCase());
+
+
+
+
+
+
+
+//sentence   :    please give  Rs 1000
+//extract the amount from sentence
+
+var sentence=prompt("enter string  :  ");
+var amount=parseInt(prompt("enter the amount to be checked  :   "));
+sentence.includes(amount)  ?   console.log(amount ,"yes it is present")   :   console.log("not present");
 
 
